@@ -25,7 +25,8 @@ body{
     width:100%;
     object-fit: cover;
     z-index:-1;
-    transform:translateZ(-40px) scale(5);
+    transform:translateZ(-3.2vw) scale(5);
+    opacity:1;
 }
 .second{
     position: absolute;
@@ -33,12 +34,12 @@ body{
     width:20%;
     z-index:-1;
     bottom:-20vw;
-    transform:translateZ(-20px) scale(1.5);
+    transform:translateZ(-3vw) scale(3);
 }
-h1{
+.hone{
     color: white;
     position: absolute;
-    top:2vw;
+    top:4vw;
 font-size:5vw;
 text-shadow: 0.4vw 0.2vw 1vw #FF0000;
 }
@@ -85,4 +86,16 @@ text-shadow: 0.4vw 0.2vw 1vw #FF0000;
      word-spacing:0.4vw;
      border-radius:1vw;
      padding:1vw;
+}
+.moving{
+    font-size:2.5vw;
+    background-color: rgb(197, 130, 49);
+    color: white;
+    word-spacing:0.2vw;
+    height:5.2vw;
+    margin-top:-10vw;
+   padding-top:2vw;
+}
+.pdown{
+    padding-bottom:6vw;
 }
